@@ -53,7 +53,7 @@
                                     aria-label="default input example"
                                 />
 
-                                <div class="mt-4 text-white fs-5">Language:</div>
+                                <div class="mt-4 text-secondary fw-semibold fs-5">Language:</div>
                                 <!-- bottone lingua dropdown  -->
                                 <div class="dropdown my-2">
                                     <button
@@ -70,8 +70,91 @@
                                         <li><a class="dropdown-item" href="#">Klingon language</a></li>
                                     </ul>
                                 </div>
+
+                                <div class="text-success">
+                                    <hr />
+                                </div>
+                                <!-- maturity settings  -->
+                                <div>
+                                    <div class="text-secondary mb-2 fs-5 fw-semibold">Maturity Settings:</div>
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn btn-secondary dropdown-toggle my-2"
+                                            type="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                        >
+                                            ALL MATURITY RATINGS
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-dark">
+                                            <li><a class="dropdown-item" href="#">Maturity 12+</a></li>
+                                            <li><a class="dropdown-item" href="#">Maturity 16+</a></li>
+                                            <li><a class="dropdown-item" href="#">Maturity 18+</a></li>
+                                        </ul>
+                                    </div>
+                                    <div>Show titles of all maturity ratings for this profile.</div>
+                                    <div class="d-grid gap-2 d-md-block my-2">
+                                        <button class="btn btn-secondary bg-dark text-secondary px-4" type="button">
+                                            Edit
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="text-success">
+                                    <hr />
+                                </div>
+
+                                <!-- autopplay control  -->
+
+                                <div class="text-secondary mb-2 fs-5 fw-semibold">AutoPlay controls:</div>
+                                <div>
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <input
+                                                class="form-check-input mt-0"
+                                                type="radio"
+                                                value=""
+                                                aria-label="Radio button for following text input"
+                                            />
+                                        </div>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            aria-label="Text input with radio button"
+                                        />
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="input-group-text">
+                                            <input
+                                                class="form-check-input mt-0"
+                                                type="radio"
+                                                value=""
+                                                aria-label="Radio button for following text input"
+                                            />
+                                        </div>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            aria-label="Text input with radio button"
+                                        />
+                                    </div>
+                                </div>
                             </div>
                         </section>
+
+                        <div class="text-success">
+                            <hr />
+                        </div>
+
+                        <div class="d-flex justify-content-center gap-5">
+                            <button type="button" class="btn btn-light text-black fs-5">SAVE</button>
+                            <button type="button" class="btn btn-dark border border-secondary text-secondary fs-5">
+                                CANCEL
+                            </button>
+                            <button type="button" class="btn btn-dark border border-secondary text-secondary fs-5">
+                                DELETE PROFILE
+                            </button>
+                        </div>
                     </div>
                 </div>
             </main>
