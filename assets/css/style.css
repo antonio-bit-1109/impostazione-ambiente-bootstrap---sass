@@ -11023,7 +11023,7 @@ textarea.form-control-lg {
 
 @media screen and (min-width: 1px) {
   body .container-fluid .my-5 .row #this, body .container-sm .my-5 .row #this, body .container-md .my-5 .row #this, body .container-lg .my-5 .row #this, body .container-xl .my-5 .row #this, body .container-xxl .my-5 .row #this {
-    width: 100%;
+    width: 90%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -11033,7 +11033,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1px) {
   body .container-fluid .my-5 .row #that, body .container-sm .my-5 .row #that, body .container-md .my-5 .row #that, body .container-lg .my-5 .row #that, body .container-xl .my-5 .row #that, body .container-xxl .my-5 .row #that {
-    width: 100%;
+    width: 90%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -11043,7 +11043,7 @@ textarea.form-control-lg {
 }
 @media screen and (min-width: 1px) {
   body .container-fluid .my-5 .row #those, body .container-sm .my-5 .row #those, body .container-md .my-5 .row #those, body .container-lg .my-5 .row #those, body .container-xl .my-5 .row #those, body .container-xxl .my-5 .row #those {
-    width: 100%;
+    width: 90%;
   }
 }
 @media screen and (min-width: 768px) {
