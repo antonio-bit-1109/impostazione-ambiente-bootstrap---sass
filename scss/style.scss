@@ -8,8 +8,12 @@
 body {
     .container-fluid {
         footer {
-            @media screen and (min-width: 768px) {
-                width: 50%;
+            .row {
+                .d-flex {
+                    @media screen and (min-width: 768px) {
+                        width: 50%;
+                    }
+                }
             }
         }
     }
