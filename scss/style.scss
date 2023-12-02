@@ -7,9 +7,28 @@
 
 body {
     .container-fluid {
-        footer {
+        .my-5 {
             .row {
-                .d-flex {
+                #this {
+                    @media screen and (min-width: 1px) {
+                        width: 100%;
+                    }
+                    @media screen and (min-width: 768px) {
+                        width: 50%;
+                    }
+                }
+                #that {
+                    @media screen and (min-width: 1px) {
+                        width: 100%;
+                    }
+                    @media screen and (min-width: 768px) {
+                        width: 50%;
+                    }
+                }
+                #those {
+                    @media screen and (min-width: 1px) {
+                        width: 100%;
+                    }
                     @media screen and (min-width: 768px) {
                         width: 50%;
                     }
