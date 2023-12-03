@@ -21,16 +21,16 @@ body {
                         display: none;
                     }
                 }
-                #primo:hover {
+                .primo:active {
                     transition: all 300ms;
                     translate: 300px;
                 }
-                #ultimo:hover {
+                .ultimo:active {
                     transition: all 300ms;
                     translate: -300px;
                 }
 
-                .carta:hover {
+                .carta:active {
                     box-shadow: 7px 7px 12px rgb(228, 219, 219);
                     transition: all 300ms;
                     scale: 2;
@@ -38,7 +38,7 @@ body {
                     border-radius: 30px;
 
                     .description {
-                        display: block;
+                        display: inline-block;
                     }
                 }
             }

@@ -11033,23 +11033,23 @@ body #card-principale main #riga-generale .carta {
 body #card-principale main #riga-generale .carta .description {
   display: none;
 }
-body #card-principale main #riga-generale #primo:hover {
+body #card-principale main #riga-generale .primo:active {
   transition: all 300ms;
   translate: 300px;
 }
-body #card-principale main #riga-generale #ultimo:hover {
+body #card-principale main #riga-generale .ultimo:active {
   transition: all 300ms;
   translate: -300px;
 }
-body #card-principale main #riga-generale .carta:hover {
+body #card-principale main #riga-generale .carta:active {
   box-shadow: 7px 7px 12px rgb(228, 219, 219);
   transition: all 300ms;
   scale: 2;
   z-index: 99;
   border-radius: 30px;
 }
-body #card-principale main #riga-generale .carta:hover .description {
-  display: block;
+body #card-principale main #riga-generale .carta:active .description {
+  display: inline-block;
 }
 @media screen and (min-width: 1px) {
   body .container-fluid .my-5 .row #this, body .container-sm .my-5 .row #this, body .container-md .my-5 .row #this, body .container-lg .my-5 .row #this, body .container-xl .my-5 .row #this, body .container-xxl .my-5 .row #this {
